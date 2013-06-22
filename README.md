@@ -1,10 +1,10 @@
 # Mysql-wrapper
 
-A wrapper of [node-mysql](https://github.com/felixge/node-mysql) to improve fault tolerance, including enhanced query generator and data escaping powered by [typo](https://github.com/kaelzhang/typo) template engine.
+A wrapper of [node-mysql](https://github.com/felixge/node-mysql) to improve fault tolerance, including enhanced query generator and data escaping which powered by [typo](https://github.com/kaelzhang/typo) template engine.
 
 Mysql-wrapper is also a **supervisor** and a **minor** set of node-mysql.
 
-Mysql-wrapper is created to solve the "Cannot enqueue Handshake after already enqueuing a Handshake" error of node-mysql.
+Mysql-wrapper is created to solve the "Cannot enqueue Handshake after already enqueuing a Handshake" error of node-mysql and more.
 
 ## Installation
 
