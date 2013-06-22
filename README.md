@@ -61,7 +61,7 @@ conn.query('SELECT * FROM table {{where data}}', {
 
 ```js
 'INSERT INTO table {{values values}}', {
-	data: {
+	values: {
 		a: 1,
 		b: 2
 	}
