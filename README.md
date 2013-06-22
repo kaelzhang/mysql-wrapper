@@ -2,7 +2,7 @@
 
 A wrapper of [node-mysql](https://github.com/felixge/node-mysql) to improve fault tolerance, including enhanced query generator and data escaping powered by [typo](https://github.com/kaelzhang/typo) template engine.
 
-Mysql-wrapper is also a ** supervisor ** and a ** minor ** set of node-mysql.
+Mysql-wrapper is also a **supervisor** and a **minor** set of node-mysql.
 
 Mysql-wrapper is created to solve the "Cannot enqueue Handshake after already enqueuing a Handshake" error of node-mysql.
 
@@ -23,7 +23,9 @@ var conn = mysql({
 });
 conn.query(...);
 ```
-	
+
+# Methods
+There're only two methods, maybe one, that you'd frequently use.
 
 ## conn.query(sql, data, callback)
 
@@ -104,6 +106,8 @@ conn.query('SELECT * FROM table {{where data}}', {
 ]
 ```
 
-### conn.end()
+## conn.end()
 
-Close the current connection, if there's another `conn.query` executed, the connection will be ** automatically created ** again.
+Close the current connection, if there's another `conn.query` executed, the connection will be **automatically created** again.
+
+For an application of high concurrence, you should **NEVER** use this method!
