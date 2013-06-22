@@ -1,0 +1,31 @@
+{
+  "name": "mysql-wrapper",
+  "version": "0.1.0",
+  "description": "A wrapper of node-mysql to improve fault tolerance, including enhanced query generator and data escaping powered by typo template engine",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaelzhang/mysql-wrapper.git"
+  },
+  "keywords": [
+    "mysql",
+    "mysql-wrapper",
+    "query",
+    "error",
+    "fault",
+    "template",
+    "generator"
+  ],
+  "author": "kael",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/kaelzhang/mysql-wrapper/issues"
+  },
+  "dependencies": {
+    "typo": "~0.1.11",
+    "mysql": "~2.0.0-alpha8"
+  }
+}
