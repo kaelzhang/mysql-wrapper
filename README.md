@@ -33,20 +33,14 @@ Execute a mysql query.
 
 If you use helpers below, the parameters will be ** automatically escaped if necessary ** in order to avoid SQL Injection attacks.
 
-#### sql
-`String`
+##### sql
+`String` a special version of [typo](https://github.com/kaelzhang/typo) syntax which optimized for sql grammar is provided.
 
-`sql` support a special version of [typo](https://github.com/kaelzhang/typo) syntax which optimized for sql grammar.
+##### data
+`Object` template data for typo
 
-#### data
-`Object`
-
-Template data for typo
-
-#### callback
-`function(err, result)`
-
-Callback of mysql quering
+##### callback
+`function(err, result)` Callback of mysql quering
 
 ### Example: Available helpers
 
