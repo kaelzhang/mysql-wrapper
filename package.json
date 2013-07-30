@@ -20,7 +20,7 @@
     "generator"
   ],
   "author": "kael",
-  "license": "BSD",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kaelzhang/mysql-wrapper/issues"
   },
