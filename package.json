@@ -1,7 +1,7 @@
 {
   "name": "mysql-wrapper",
-  "version": "0.1.0",
-  "description": "A wrapper of node-mysql to improve fault tolerance, including enhanced query generator and data escaping powered by typo template engine",
+  "version": "0.1.1",
+  "description": "Mysql-wrapper is a wrapper of node-mysql to improve fault tolerance, including enhanced query generator and data escaping powered by typo template engine",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
